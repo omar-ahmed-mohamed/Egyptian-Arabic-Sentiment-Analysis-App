@@ -1,16 +1,16 @@
-# 🎭 Egyptian Arabic Sentiment Analysis
+# Egyptian Arabic Sentiment Analysis
 
 Real-time sentiment analysis for Egyptian Arabic dialect customer reviews, powered by fine-tuned **MARBERTv2**.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project fine-tunes [UBC-NLP/MARBERTv2](https://huggingface.co/UBC-NLP/MARBERTv2) — a BERT model pre-trained on Arabic dialects — to classify Egyptian customer reviews as **positive** or **negative**. A Gradio web interface is included for real-time inference.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 ├── Arabic_Egypt_Customer_Reviews.ipynb   # Training & inference notebook
@@ -21,7 +21,7 @@ This project fine-tunes [UBC-NLP/MARBERTv2](https://huggingface.co/UBC-NLP/MARBE
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install Dependencies
 
@@ -57,7 +57,7 @@ Duplicates and null values are removed before training.
 
 ---
 
-## 🧹 Text Preprocessing
+## Text Preprocessing
 
 Applied before tokenization:
 
@@ -69,7 +69,7 @@ Applied before tokenization:
 
 ---
 
-## 🧠 Model
+## Model
 
 | Detail         | Value                        |
 |----------------|------------------------------|
@@ -88,7 +88,7 @@ Data split: **64% train / 16% validation / 20% test**
 
 ---
 
-## 🖥️ Run the App
+## Run the App
 
 After training, run the Gradio interface directly:
 
@@ -100,7 +100,7 @@ python app.py
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Library        | Purpose                        |
 |----------------|--------------------------------|
@@ -113,14 +113,14 @@ python app.py
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 - **Accuracy**
 - **F1 Score** (weighted) — used as the primary metric for best model selection
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.8+
 - CUDA-compatible GPU (recommended)
