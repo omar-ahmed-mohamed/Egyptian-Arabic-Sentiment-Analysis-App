@@ -43,7 +43,7 @@ python app.py
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset (`Final_Data.csv`) contains Egyptian Arabic customer reviews with the following columns:
 
